@@ -3,7 +3,8 @@ import './RegisterPage.css';
 import { Link , useNavigate} from 'react-router-dom';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:8080';
+// axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://crm-koskill.onrender.com';
 
 export default function RegisterPage() {
   const navigate=useNavigate();
